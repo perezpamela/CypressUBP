@@ -1,0 +1,23 @@
+{
+  "name": "cypressubp",
+  "version": "1.0.0",
+  "description": "Curso de Testing Automatizado con Cypress - UBP",
+  "main": "index.js",
+  "scripts": {
+    "test": "open",
+    "mi:cmd":"npx cypress run -e baseUrl=https://automationteststore.com -s cypress/e2e/*.cy.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/perezpamela/CypressUBP.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/perezpamela/CypressUBP/issues"
+  },
+  "homepage": "https://github.com/perezpamela/CypressUBP#readme",
+  "dependencies": {
+    "cypress": "^10.9.0"
+  }
+}

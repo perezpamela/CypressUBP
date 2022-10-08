@@ -1,0 +1,11 @@
+#La carpeta de las dependecias
+node_modules
+
+#Los videos autogenerados
+cypress/videos
+
+#Los archivos que en cada test van a volver a generarse para guardar respuestas.
+cypress/fixtures/eden.json
+cypress/fixtures/inicio.json
+cypress/fixtures/sedes.json
+cypress/fixtures/users.json
